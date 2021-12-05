@@ -1,4 +1,4 @@
 export const DISPERSEABI = {
-    iotexTestnet: "0x3744c2e13e51A9305D2E9381f5E5D0BBd1a733a4",
-    binanceTestnet: "0x95e212393e76fA88A7b7D9246c5197d0AEaba407",
+    iotexTestnet: "0x3Bf8482dca75209dC8FBdeBbF68599E8E4b358B7",
+    binanceTestnet: "0xD152f549545093347A162Dce210e7293f1452150",
 };

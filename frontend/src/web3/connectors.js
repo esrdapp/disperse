@@ -9,6 +9,7 @@ export const injectedConnector = new InjectedConnector({
       42, // Kovan
       56, // BSC Mainnet
       97, // BSC Testnet
+      269, // HPB  
       4690,//IOTEX Testnet
     ],
   });

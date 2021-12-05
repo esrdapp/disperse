@@ -4,10 +4,10 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol";
 
 // This ERC-20 contract mints the specified amount of tokens to the contract creator.
-contract RTOK is ERC20, ERC20Detailed {
+contract DISPERSE is ERC20, ERC20Detailed {
     constructor(uint256 initialSupply)
         public
-        ERC20Detailed("RTOKEN", "RTOK", 18)
+        ERC20Detailed("DISPERSE", "DISPERSE", 18)
     {
         _mint(msg.sender, initialSupply);
     }

@@ -107,7 +107,7 @@ const Tokens = () => {
         setDisableDisperse(true);
     }
 
-    if ((chainId === 97 || chainId === 4690) && active) {
+    if ((chainId === 1 || chainId === 269) && active) {
         return(
             <Grid>
                 <Grid.Row>
@@ -159,8 +159,8 @@ const Tokens = () => {
                     </Grid.Column>
                     <Grid.Column width={10}>
                         <Grid.Row>
-                            {!(chainId === 97 || chainId === 4690) ?
-                            <div><p>This DAPP only supports Binance Testnet(Chain ID : 97) and IOTEX Testnet ( Chain ID : 4690)</p></div>
+                            {!(chainId === 1 || chainId === 269) ?
+                            <div><p>This DAPP only supports Ethereum Mainnet(Chain ID : 1) and HPB ( Chain ID : 269)</p></div>
                             : <div></div>}
                         </Grid.Row>
                         <Grid.Row>
